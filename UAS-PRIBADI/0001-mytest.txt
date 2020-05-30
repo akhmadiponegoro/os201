@@ -1,0 +1,36 @@
+Script started on Sat 30 May 2020 06:45:09 AM WIB
+
+PS1="$ "
+
+echo $GitHubUser
+
+echo $PSTAMP
+
+eval $PSTAMP
+
+PS1="\$(eval \$PSTAMP)"akhmad.diponegoro@badak:~$
+akhmad.diponegoro@badak:~$ PS1="$ "
+$
+$ echo $GitHubUser
+akhmadiponegoro
+$
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$
+$ eval $PSTAMP
+200530-064509-02df-akhmad.diponegoro/>
+$
+$ PS1="\$(eval \$PSTAMP)"
+200530-064511-8579-akhmad.diponegoro/> date
+Sat May 30 06:45:15 WIB 2020
+200530-064515-bb24-akhmad.diponegoro/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/akhmad.diponegoro/.gnupg/pubring.gpg
+---------------------------------------------------------------
+pub   4096R/EB10A830 2020-02-22 [expires: 2021-02-21]
+uid       [ultimate] Akhmad Diponegoro Widodo (ADW) <adiponew@gmail.com>
+sub   4096R/4145CEE7 2020-02-22 [expires: 2021-02-21]
+
+200530-064529-ade2-akhmad.diponegoro/> exit
+exit
+
+Script done on Sat 30 May 2020 06:46:23 AM WIB
