@@ -3,6 +3,7 @@ permalink: /URLs/
 ---
 <body>
   <h1> URLs Archive </h1>
+  <img src="https://www.iconsdb.com/icons/preview/white/google-web-search-xxl.png">
   <ul>
     <li> <a href="http://os.vlsm.org/"> Operating System Course Site </a> </li>
     <li> <a href="https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/"> Computer Basics by gcfglobal </a> </li>
