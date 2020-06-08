@@ -4,6 +4,6 @@ permalink: /URLs/
 <body>
   <h1> URLs </h1>
   <ol>
-    <a> http://os.vlsm.org/ </a>
+    <li> <link> http://os.vlsm.org/ </link> </li>
   </ol>
 </body>
