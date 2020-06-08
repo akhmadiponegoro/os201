@@ -5,5 +5,7 @@ permalink: /URLs/
   <h1> URLs Archive </h1>
   <ul>
     <li> <a href="http://os.vlsm.org/"> Operating System Course Site </a> </li>
+    <li> <a href="https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/"> Computer Basics by gcf global </a> </li>
+    <li> <a href="https://www.guru99.com/operating-system-tutorial.html"> Operating System Tutorial by guru99 </a> </li>
   </ul>
 </body>
