@@ -5,7 +5,7 @@ akhmadiponegoro
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ eval $PSTAMP
-200608-202255-d533-akhmad.diponegoro/>
+200608-202255-d533-akhmad.diponegoro/> 
 $ PS1="\$(eval \$PSTAMP)"
 200608-202256-3238-akhmad.diponegoro/> echo -e $CEKSAYA
 akhmadiponegoro ZCZCSCRIPTSTART 200530-064509 akhmadiponegoro
@@ -16,12 +16,12 @@ akhmadiponegoro ZCZCSCRIPTSTART 200530-064509 akhmadiponegoro
  akhmadiponegoro ZCZCSCRIPTSTOP 200530-064623 SEQOK
 
 200608-202256-3238-akhmad.diponegoro/> echo -e $CEKSEBELA1
-akhmadiponegoro ZCZCSCRIPTSTART 200601-014035 alfisyk
- akhmadiponegoro alfisyk 200601-014101-2493-muhammad.alfi81/ 200601-014101 SEQOK SUMOK 2493022c
- akhmadiponegoro alfisyk 200601-014110-9e15-muhammad.alfi81/ 200601-014110 SEQOK SUMOK 9e1551f3
- akhmadiponegoro alfisyk 200601-014112-e9b9-muhammad.alfi81/ 200601-014112 SEQOK SUMOK e9b96d26
- akhmadiponegoro alfisyk 200601-014119-f2bf-muhammad.alfi81/ 200601-014119 SEQOK SUMOK f2bfc35d
- akhmadiponegoro ZCZCSCRIPTSTOP 200601-014123 SEQOK
+akhmadiponegoro ZCZCSCRIPTSTART 200601-014035 alfisyk 
+ akhmadiponegoro alfisyk 200601-014101-2493-muhammad.alfi81/ 200601-014101 SEQOK SUMOK 2493022c 
+ akhmadiponegoro alfisyk 200601-014110-9e15-muhammad.alfi81/ 200601-014110 SEQOK SUMOK 9e1551f3 
+ akhmadiponegoro alfisyk 200601-014112-e9b9-muhammad.alfi81/ 200601-014112 SEQOK SUMOK e9b96d26 
+ akhmadiponegoro alfisyk 200601-014119-f2bf-muhammad.alfi81/ 200601-014119 SEQOK SUMOK f2bfc35d 
+ akhmadiponegoro ZCZCSCRIPTSTOP 200601-014123 SEQOK 
 
 200608-202256-3238-akhmad.diponegoro/> echo -e $CEKSEBELA2
 akhmadiponegoro ZCZCSCRIPTSTART 200603-103449 alkwrzm
